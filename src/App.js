@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {app} from "./firebaseConfig"
 function App() {
   // State to store the email and password
   const [email, setEmail] = useState('');
